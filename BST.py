@@ -95,24 +95,20 @@ class BST:
                 return
 
 
-                
-            
 y=BST(10)
 y.insert(y.head,Node(20))
 y.insert(y.head,Node(5))
 y.insert(y.head,Node(1))
 y.insert(y.head,Node(6))
-
 y.insert(y.head,Node(14))
 y.insert(y.head,Node(15))
 y.insert(y.head,Node(16))
 y.insert(y.head,Node(13))
 y.insert(y.head,Node(30))
 y.insert(y.head,Node(7))
-
-
 y.minimum(y.head)
 y.maximum(y.head)
+y.postorder(y.head)
 print(y.successor(y.head))
 print(y.predecessor(y.head))
 print(y.search(y.head,Node(14)))
